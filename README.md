@@ -15,17 +15,19 @@ EE228 课程大作业 利用3D骨架控制3D卡通人物 (https://github.com/yuz
 
 
 # 匹配流程
-
-xxx (这里请简单描述你熟悉/使用 匹配代码的流程，可以简述对代码的理解/各个函数作用等。)
+1、挑选合适的模型，在transfer.py中，在最后函数的参数部分改为自己选中模型序号的txt文件，然后运行。运行后可以获得关节点名称和对应的序号，然后将得到的模型的关节点索引与提供的人体SMPL关节点索引进行匹配。匹配时要保证两者的核心拓扑结构尽可能一样，即核心骨骼点要匹配上。
 
 
 
 # 新增脚本说明
 
-主要是对cv2.Videowriter()的参数进行修改，对vis.py的具体修改如下所示：
-save_video_path = osp.join(savedir, "vis.avi")
- h, w = 1050, 1920
-    video_writer = cv2.VideoWriter(save_video_path,cv2.VideoWriter_fourcc('I','4','2','0'), 24, (w, h))
+主要是对cv2.Videowriter()的参数进行修改，对vis.py的具体修改如下所示：  
+
+save_video_path = osp.join(savedir, "vis.avi")  
+
+ h, w = 1050, 1920  
+ 
+ video_writer = cv2.VideoWriter(save_video_path,cv2.VideoWriter_fourcc('I','4','2','0'), 24, (w, h))
 
 
 
