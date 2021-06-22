@@ -9,8 +9,10 @@ EE228 课程大作业 利用3D骨架控制3D卡通人物 (https://github.com/yuz
 
 # Maya 环境配置
 
-1、申请一个autodesk账户并申请教育版权限，然后获得maya2020安装包的链接，安装maya2020。
-2、将maya2020安装目录的bin文件夹的路径添加到环境变量。
+1、申请一个autodesk账户并申请教育版权限，然后获得maya2020安装包的链接，安装maya2020。  
+
+2、将maya2020安装目录的bin文件夹的路径添加到环境变量。  
+
 3、打开cmd，输入mayapy，安装pip，numpy。
 
 
