@@ -40,9 +40,8 @@ save_video_path = osp.join(savedir, "vis.avi")
 
 # 项目结果
 
-xxx. (这里放置来自你最终匹配结果的截图， 如
 
-![image](../img/pose2carton.png))
+![image](../1.png))
 
 
 
