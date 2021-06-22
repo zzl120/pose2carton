@@ -42,6 +42,7 @@ save_video_path = osp.join(savedir, "vis.avi")
 
 
 ![image](/img/16.png)
+![image](/img/1.png)
 
 
 
